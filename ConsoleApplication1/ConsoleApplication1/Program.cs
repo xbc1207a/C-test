@@ -10,6 +10,9 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            int number1 = 10, number2 = 100;
+            Console.WriteLine("number1+number2={0}", number1 + number2);
+            Console.ReadKey();
         }
     }
 }
