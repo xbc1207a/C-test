@@ -12,6 +12,7 @@ namespace ConsoleApplication1
 
         public int GetOneNumber()
         {
+            if (q.Count == 0) return -1;
             return this.q.Dequeue();
         }
         public void AddANumber(int number)
