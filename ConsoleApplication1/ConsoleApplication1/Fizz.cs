@@ -9,5 +9,10 @@ namespace ConsoleApplication1
     class Fizz
     {
         private Queue<int> q = new Queue<int>();
+
+        public int GetOneNumber()
+        {
+            return this.q.Dequeue();
+        }
     }
 }
