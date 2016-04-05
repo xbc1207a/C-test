@@ -14,5 +14,9 @@ namespace ConsoleApplication1
         {
             return this.q.Dequeue();
         }
+        public void AddANumber(int number)
+        {
+            this.q.Enqueue(number);
+        }
     }
 }
