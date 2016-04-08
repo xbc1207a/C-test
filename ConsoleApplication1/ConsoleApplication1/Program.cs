@@ -14,7 +14,7 @@ namespace ConsoleApplication1
             Fizz f = new Fizz();
 
             Console.WriteLine("number1+number2={0}", number1 + number2);
-            Console.ReadKey();
+            //Console.ReadKey();
 
             for(int i = 0; i < 100; i = i + 1)
             {
